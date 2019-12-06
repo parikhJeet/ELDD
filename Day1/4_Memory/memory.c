@@ -5,7 +5,7 @@
 #include <linux/slab.h>
 
 
-int __init hello_init(void) {
+int __init mem_init(void) {
 	uint32_t *k_data;
 	uint32_t *z_data;
 	int32_t *v_data;
@@ -57,11 +57,11 @@ int __init hello_init(void) {
 	return 0;
 }
 
-void __exit hello_exit(void) {
+void __exit mem_exit(void) {
 	pr_info("%s() | Have you excited to hack Linux Kernel further?\n", __func__);
 }
 
-module_init(hello_init);
-module_exit(hello_exit);
+module_init(mem_init);
+module_exit(mem_exit);
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Jeet Parikh <jeetparikh616@gmail.com>");
