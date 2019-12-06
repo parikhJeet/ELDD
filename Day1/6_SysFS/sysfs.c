@@ -38,6 +38,7 @@ r_sysfs:
 }
 
 void __exit sysfs_exit(void) {
+	sysfs_remove_file(NULL, &ELDD_attr.attr);
 	pr_info("%s() | Yeah! We explored SysFS\n", __func__);
 }
 
