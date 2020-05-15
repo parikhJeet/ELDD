@@ -13,7 +13,7 @@ Section A : Common infrastructure
             
 Section B : User application interface
             
-            + Types of Librarys in Linux
+            + Types of libraries in Linux
             + ELF File format
             + ext2 File System
             + open()-read()-write()-close() File operations
