@@ -1,7 +1,7 @@
 # ELDD
 Explore Linux Device Driver
 
-Day 0: Setting up the mindset to Learn Embedded Device Driver for Linux
+Section [You] : Setting up the mindset to Learn Embedded Device Driver for Linux
 
 Section A : Common infrastructure
 
